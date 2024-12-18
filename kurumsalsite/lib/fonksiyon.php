@@ -10,7 +10,7 @@
  
 class kurumsal{
 
-  public $normaltittle,$metatittle,$metadesc,$metakey,$metaout,$metaown,$metacopy,$logoyazi,$tvit,$face,$inst,$telno,$mailadres,$normaladres,$slogan,$referansbaslik,$filobaslik,$yorumbaslik,$iletisimbaslik,$hizmetlerbaslik;
+  public $normaltittle,$metatittle,$metadesc,$metakey,$metaout,$metaown,$metacopy,$logoyazi,$tvit,$face,$inst,$telno,$mailadres,$normaladres,$slogan,$referansbaslik,$filobaslik,$yorumbaslik,$iletisimbaslik,$hizmetlerbaslik,$haritabilgi;
 
   //AYARLAR
 
@@ -48,6 +48,7 @@ class kurumsal{
     $this->yorumbaslik=$sorguson["yorumbaslik"];
     $this->iletisimbaslik=$sorguson["iletisimbaslik"];
     $this->hizmetlerbaslik=$sorguson["hizmetlerbaslik"];
+    $this->haritabilgi=$sorguson["haritabilgi"];
   }
 
 
